@@ -1,0 +1,248 @@
+body {
+  font-family: 'Roboto', sans-serif!important;
+  background-color: #1C232E!important;
+}
+.mainImg{
+  min-width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgb(29 36 47/ 70%), rgb(29 36 47/ 70%)), url('./assets/Banner.jpg');
+  background-repeat: no-repeat;
+  display: block;
+  line-height: 1;
+}
+.SuperText{
+  font-size: 48px;
+  color: #fff;
+  
+}
+.SuperText_B{
+  font-size: 48px;
+  color: #fff;
+  
+}
+.SuperText::after{
+  margin-top: 10px;
+  content: "";
+  border-bottom: 5px solid #fff;
+  width: 80px;
+  display: block;
+
+}
+.bBox.col {
+  background-color: #222A36;
+  max-width: 380px;
+  height: 250px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 20px;
+}
+.iconImg {
+  position: relative;
+  left: -60px;
+  bottom: -40px;
+}
+.iconImg.img:nth-child(2) {
+  position: relative;
+  left: -60px;
+  bottom: -90px;
+}
+.iconName{
+  color: #DBD1FE;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.iconText{
+  color: #C6C6C6;
+  font-size: 18px;
+  font-weight: 400;
+}
+.ourTextBox{
+  max-width: 300px!important;
+  word-wrap: normal;
+}
+.aboutbox {
+  top: -400px;
+  position: relative;
+}
+/* img.pathImg {
+  position: absolute;
+  width: 650px;
+  left: 490px;
+  top: 730px;
+} */
+img.pathImg {
+  position: absolute;
+  width: 630px;
+  left: -247px;
+  top: 79px;
+}
+.pointText{
+  color: #C6C6C6;
+  font-size: 28px;
+  font-weight: 400;
+}
+.lastsection.col {
+  position: relative;
+  right: 144px;
+  top: 180px;
+}
+.ecliplsesection{
+  position: relative;
+}
+.eclipse{
+  background: #805DA7;
+  width: 200px;
+  height: 200px;
+  top: 50px;
+  left: 40px;
+  border-radius: 100%;
+  position: absolute;
+}
+.eclipse4{
+  background: #805DA7;
+  width: 190px;
+  height: 190px;
+  top: 60px;
+  left: 40px;
+  border-radius: 100%;
+  position: absolute;
+}
+.eclipse2{
+  background: #81DE76;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+}
+.eclipse3{
+  background: #FFFFFF;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 110px;
+}
+
+.ecliplsesection {
+  position: absolute;
+  top: -342px;
+  left: 30px;
+}
+.ceoText{
+  color: #C6C6C6;
+  font-size: 28px;
+  font-weight: 600;
+}
+.ceoText2{
+  color: #C6C6C6;
+  font-size: 20px;
+  font-weight: 400;
+}
+  .ceomain.col-4 {
+    position: relative;
+    bottom: -180px;
+}
+
+.serviceBox {
+  background-color: #222A36;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  margin: 30px;
+}
+.leadership{
+  position: relative;
+}
+.serviceText{
+  font-size: 18px;
+  font-weight: 400;
+}
+.finalText {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.FlotSection{
+  position: relative;
+}
+.nav-item {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-link.active::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #81DE76;
+  margin-left: 20px
+}
+
+/* 
+mobile css here */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .bBox.col {
+    background-color: #222A36;
+    height: 250px;
+    min-width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+}
+.iconImg {
+  position: relative;
+  left: 0;
+  bottom: 20px;
+  width: 70px;
+}
+.aboutbox {
+  top: -400px;
+  position: relative;
+}
+.leadership {
+  position: relative;
+  top: -35px;
+  left: 40px;
+}
+.ecliplsesection {
+  position: absolute;
+  top: -1266px;
+  left: -3px;
+}
+
+.lastsection.col {
+  position: relative;
+  right: -15px;
+  top: -700px;
+  /* bottom: -400px; */
+}
+.pointText{
+  font-size: 21px;
+}
+.iconText{
+  font-size: 16px;
+}
+
+.newfinalSec {
+  position: relative;
+  top: -950px;
+}
+
+.SuperText_B {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.serviceBox {
+  background-color: #222A36;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  padding: 30px;
+  margin-bottom: 5px;
+}
+
+}
